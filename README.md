@@ -195,7 +195,4 @@ See `requirements.txt` for the dependency list.
 -   The model is evaluated on CIFAR-10 and is not intended to classify
     arbitrary real-world images without further adaptation.
 
-## License
 
-No license has been specified yet. Add a license file before allowing
-others to reuse, modify, or distribute this project.
