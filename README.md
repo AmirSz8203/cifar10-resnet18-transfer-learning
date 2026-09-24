@@ -75,12 +75,12 @@ cifar10-resnet18-transfer-learning/
 
 The best trial reported a validation loss of **0.19671**.
 
-  Hyperparameter     Selected value
-  ---------------- ----------------
-  `layer4_lr`         `8.95768e-05`
-  `fc_lr`             `1.00073e-04`
-  `weight_decay`      `6.81943e-05`
-  `dropout_p`             `0.48994`
+| Hyperparameter | Selected value | 
+|---|---|
+| layer4_lr | 8.95768e-05 |
+| fc_lr | 1.00073e-04 |
+| weight_decay | 6.81943e-05 |
+| dropout_p | 0.48994 |
 
 These values were selected by the Optuna search in the first notebook.
 
@@ -88,11 +88,11 @@ These values were selected by the Optuna search in the first notebook.
 
 ### Overall performance
 
-  Metric                                                             Result
-  ------------------------------------------------------------ ------------
-  Test accuracy                                                  **93.10%**
-  Best reported validation accuracy during training                  94.30%
-  Best reported validation loss during hyperparameter search        0.19671
+| Metric | Result | 
+|---|---|
+| Test accuracy | **93.10%** |
+| Best reported validation accuracy during training | 94.30% |
+| Best reported validation loss during hyperparameter search | 0.19671 |
 
 The validation accuracy of 94.30% was reported at epoch 10. The selected
 checkpoint was based on validation loss, and the reported test accuracy
@@ -100,18 +100,18 @@ was measured using that checkpoint.
 
 ### Per-class test accuracy
 
-  Class          Accuracy
-  ------------ ----------
-  Airplane         97.70%
-  Automobile       97.50%
-  Bird             91.30%
-  Cat              83.70%
-  Deer             91.10%
-  Dog              87.80%
-  Frog             96.90%
-  Horse            95.70%
-  Ship             95.10%
-  Truck            94.20%
+| Class | Accuracy | 
+|---|---|
+| Airplane | 97.70% |
+| Automobile | 97.50% |
+| Bird | 91.30% |
+| Cat | 83.70% |
+| Deer | 91.10% |
+| Dog | 87.80% |
+| Frog | 96.90% |
+| Horse | 95.70% |
+| Ship | 95.10% |
+| Truck | 94.20% |
 
 The lowest per-class accuracy in the reported results was for **cat
 (83.70%)**.
