@@ -124,11 +124,9 @@ The lowest per-class accuracy in the reported results was for **cat
 ### 1. Clone the repository
 
 ``` bash
-git clone https://github.com/<your-username>/cifar10-resnet18-transfer-learning.git
+git clone https://github.com/AmirSz8203/cifar10-resnet18-transfer-learning.git
 cd cifar10-resnet18-transfer-learning
 ```
-
-Replace `<your-username>` with your GitHub username.
 
 ### 2. Create and activate a virtual environment
 
