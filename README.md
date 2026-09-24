@@ -53,9 +53,6 @@ cifar10-resnet18-transfer-learning/
 └── .gitignore
 ```
 
-The `results/` files are suggested outputs; add them after exporting the
-plots and report from the notebook.
-
 ## Method
 
 -   **Model:** ResNet-18 pretrained on ImageNet
