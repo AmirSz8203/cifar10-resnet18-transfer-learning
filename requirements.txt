@@ -1,0 +1,12 @@
+# For GPU support, install PyTorch/torchvision using the command for your
+# system from https://pytorch.org/get-started/locally/ before running
+# pip install -r requirements.txt — otherwise a CPU-only build may be installed.
+
+torch==2.10.0
+torchvision==0.25.0
+scikit-learn==1.6.1
+optuna==4.9.0
+matplotlib==3.10.0
+seaborn==0.13.2
+numpy==2.0.2
+jupyter
