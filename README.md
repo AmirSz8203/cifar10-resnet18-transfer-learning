@@ -157,6 +157,12 @@ On Windows:
 pip install -r requirements.txt
 ```
 
+> **Note:** The project was trained using PyTorch with CUDA 12.8 support. A plain
+> `pip install -r requirements.txt` may install a CPU-only build of PyTorch. For
+> GPU acceleration, install `torch` and `torchvision` first using the command
+> for your system from the [official PyTorch site](https://pytorch.org/get-started/locally/),
+> then run `pip install -r requirements.txt` for the remaining dependencies.
+
 ### 4. Prepare the dataset
 
 The original notebooks use a Kaggle-specific dataset path. To run them outside Kaggle, download CIFAR-10 from the [official dataset page](https://www.cs.toronto.edu/~kriz/cifar.html), extract it, and update the dataset root in the notebooks.
